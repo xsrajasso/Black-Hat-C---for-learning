@@ -1,0 +1,6 @@
+1. git clone https://github.com/Microsoft/vcpkg.git
+2. cd .\vcpkg\
+3. .\bootstrap-vcpkg.bat
+4. .\vcpkg.exe search 7zip
+5. .\vcpkg.exe install 7zip:x64-windows (optional)
+6. .\vcpkg.exe integrate install (Esto lo integra a Visual Studio)
